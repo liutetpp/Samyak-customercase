@@ -1,0 +1,13 @@
+location    = "Australia East"
+environment = "prod"
+
+# Required before real execution.
+mysql_admin_password = "ReplaceWithAStrongPassword123!"
+
+# Global names must be unique in Azure. Change them if they are already occupied.
+acr_name             = "kunlunacrpraue001"
+storage_account_name = "kunlunstprodaue001"
+key_vault_name       = "kunlun-kv-prod-aue-001"
+function_app_name    = "kunlun-functions-prod-aue-001"
+openai_account_name  = "kunlun-openai-prod-aue-001"
+ai_search_name       = "kunlun-search-prod-aue-001"
